@@ -9,7 +9,8 @@ public class SimpleShooterEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V4;
-		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_3;
-		ExtraModuleNames.Add("SimpleShooter");
+		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_4;
+        bOverrideBuildEnvironment = true;
+        ExtraModuleNames.Add("SimpleShooter");
 	}
 }
